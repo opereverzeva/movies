@@ -18,4 +18,11 @@ class MovieStore
         end
         
     end
+
+    #возвразает массив всех объектов из файла
+    def all
+        @store.transaction do
+            @store.roots.map { |id| @store[id]}
+        end
+    end
 end

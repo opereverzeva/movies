@@ -4,3 +4,13 @@
   director: R. Zemeckes
   year: '1994'
   id: 1
+2: !ruby/object:Movie
+  title: Star Wars
+  director: ''
+  year: ''
+  id: 2
+3: !ruby/object:Movie
+  title: Star Wars
+  director: George Lucks
+  year: '1977'
+  id: 3

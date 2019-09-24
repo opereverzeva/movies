@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My movies - <%= @movie.title %></title>
+</head>
+
+<body>
+    <h1><%= @movie.title %></h1>
+    <table>
+            <tr>
+        <td><strong>Title:</strong></td>
+        <td><%= @movie.title %></td>
+        </tr>
+             <tr>
+        <td><strong>Director:</strong></td>
+        <td><%= @movie.director %></td>
+         </tr>
+          <tr>
+        <td><strong>Year Published:</strong></td>
+        <td><%= @movie.year %></td>
+         </tr>
+        </table>
+    <a href="/movies">Back to Index</a>
+</body>
+
+</html>

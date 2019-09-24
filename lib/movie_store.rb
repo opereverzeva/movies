@@ -19,6 +19,12 @@ class MovieStore
         
     end
 
+    def find(id)
+        @store.transaction do
+            @store[id]
+        end
+    end
+
     #возвразает массив всех объектов из файла
     def all
         @store.transaction do

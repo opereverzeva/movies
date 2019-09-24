@@ -1,0 +1,9 @@
+---
+Spirited Away: !ruby/object:Movie
+  title: Spirited Away
+  director: Hayao Miyazaki
+  year: 2001
+Inseption: !ruby/object:Movie
+  title: Inseption
+  director: Christopher Nolan
+  year: 2010

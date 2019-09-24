@@ -1,0 +1,6 @@
+---
+1: !ruby/object:Movie
+  title: Forrest Gump
+  director: R. Zemeckes
+  year: '1994'
+  id: 1

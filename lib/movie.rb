@@ -1,3 +1,3 @@
 class Movie
-    attr_accessor :title, :direction, :year
+    attr_accessor :title, :director, :year, :id
 end
